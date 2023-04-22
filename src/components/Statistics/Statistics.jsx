@@ -15,7 +15,8 @@ export default function Statistics ({ good, neutral, bad, total, positiveFeedbac
     
   ) : (
     <Notification message="There is no feedbacks yet"></Notification>
-  );
+    );
+    
 };
 
 Statistics.propTypes = {
